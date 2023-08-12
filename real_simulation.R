@@ -21,7 +21,7 @@ zero_range <- function(x, tol = .Machine$double.eps ^ 0.5) {
 }
 data1<-list()
 data2<-list()
-lymphoma<-read.table("dlbcl_preprocessed1.txt",header=T)
+lymphoma<-read.table("dlbcl_preprocessed.txt",header=T)
 lymphoma = t(lymphoma[,-1])
 ### 77 by 2647 
 #lymphoma = lymphoma[,-104]
